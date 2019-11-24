@@ -42,6 +42,9 @@
     <ClCompile Include="inputData.cpp">
       <Filter>Файлы исходного кода\Structures</Filter>
     </ClCompile>
+    <ClCompile Include="Kiss2.cpp">
+      <Filter>Файлы исходного кода\Structures</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="api.h">
@@ -63,6 +66,9 @@
       <Filter>Заголовочные файлы\Structures</Filter>
     </ClInclude>
     <ClInclude Include="global.h">
+      <Filter>Заголовочные файлы\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Kiss2.h">
       <Filter>Заголовочные файлы\Structures</Filter>
     </ClInclude>
   </ItemGroup>
