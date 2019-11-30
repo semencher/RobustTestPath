@@ -17,7 +17,7 @@ struct Output
 	std::string state;
 };
 
-struct Element
+struct ElementK
 {
 	Input input;
 	Output output;
@@ -32,7 +32,7 @@ private:
 	int states_;
 	std::string initialState_;
 
-	std::vector<Element> elements_;
+	std::vector<ElementK> elements_;
 
 public:
 	Kiss2();
@@ -44,5 +44,6 @@ public:
 	int products();
 	int states();
 	std::string initialState();
-	std::vector<Element> elements();
+	std::vector<ElementK> elements();
+
 }; // class Kiss2

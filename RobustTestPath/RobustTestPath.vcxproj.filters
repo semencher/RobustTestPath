@@ -36,13 +36,16 @@
     <ClCompile Include="utils.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
-    <ClCompile Include="parser.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="inputData.cpp">
+    <ClCompile Include="kiss2.cpp">
       <Filter>Файлы исходного кода\Structures</Filter>
     </ClCompile>
-    <ClCompile Include="Kiss2.cpp">
+    <ClCompile Include="cudd.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="data.cpp">
+      <Filter>Файлы исходного кода\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="pla.cpp">
       <Filter>Файлы исходного кода\Structures</Filter>
     </ClCompile>
   </ItemGroup>
@@ -56,20 +59,28 @@
     <ClInclude Include="manager.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="parser.h">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
     <ClInclude Include="utils.h">
       <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
-    <ClInclude Include="inputData.h">
-      <Filter>Заголовочные файлы\Structures</Filter>
     </ClInclude>
     <ClInclude Include="global.h">
       <Filter>Заголовочные файлы\Structures</Filter>
     </ClInclude>
-    <ClInclude Include="Kiss2.h">
+    <ClInclude Include="kiss2.h">
       <Filter>Заголовочные файлы\Structures</Filter>
     </ClInclude>
+    <ClInclude Include="cudd.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="data.h">
+      <Filter>Заголовочные файлы\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="pla.h">
+      <Filter>Заголовочные файлы\Structures</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\cudd\cuddvs.lib">
+      <Filter>Файлы ресурсов</Filter>
+    </Library>
   </ItemGroup>
 </Project>

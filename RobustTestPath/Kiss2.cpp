@@ -1,4 +1,4 @@
-#include "Kiss2.h"
+#include "kiss2.h"
 
 Kiss2::Kiss2() {
 	inputs_ = -1;
@@ -50,7 +50,7 @@ bool Kiss2::parse(std::string fileName) {
 	}
 	size_t i = 0;
 	while (!file.eof() && i < products_) {
-		Element element;
+		ElementK element;
 		element.input.in = word;
 		file >> word;
 		element.input.state = word;
@@ -100,6 +100,6 @@ std::string Kiss2::initialState() {
 	return initialState_;
 }
 
-std::vector<Element> Kiss2::elements() {
+std::vector<ElementK> Kiss2::elements() {
 	return elements_;
 }
