@@ -12,6 +12,8 @@ private:
 public:
 	API();
 
-	bool readInputData(std::string fileKiss2, std::string directoryTest, std::string filePla);
+	bool readInputData(std::string testFolder, std::string fileKiss2, std::string filePla);
+
+	bool run();
 
 };	// class API

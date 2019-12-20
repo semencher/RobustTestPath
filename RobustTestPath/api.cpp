@@ -4,6 +4,10 @@ API::API() {
 
 }
 
-bool API::readInputData(std::string fileKiss2, std::string directoryTest, std::string filePla) {
-	return manager_.readInputData(fileKiss2, directoryTest, filePla);
+bool API::readInputData(std::string testFolder, std::string fileKiss2, std::string filePla) {
+	return manager_.readInputData(testFolder, fileKiss2, filePla);
+}
+
+bool API::run() {
+	return manager_.runMainAlgorithm();
 }
