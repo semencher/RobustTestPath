@@ -39,9 +39,6 @@
     <ClCompile Include="kiss2.cpp">
       <Filter>Файлы исходного кода\Structures</Filter>
     </ClCompile>
-    <ClCompile Include="cudd.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
     <ClCompile Include="data.cpp">
       <Filter>Файлы исходного кода\Structures</Filter>
     </ClCompile>
@@ -67,9 +64,6 @@
     </ClInclude>
     <ClInclude Include="kiss2.h">
       <Filter>Заголовочные файлы\Structures</Filter>
-    </ClInclude>
-    <ClInclude Include="cudd.h">
-      <Filter>Заголовочные файлы</Filter>
     </ClInclude>
     <ClInclude Include="data.h">
       <Filter>Заголовочные файлы\Structures</Filter>

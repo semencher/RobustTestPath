@@ -141,7 +141,6 @@
   <ItemGroup>
     <ClCompile Include="algorithm.cpp" />
     <ClCompile Include="api.cpp" />
-    <ClCompile Include="cudd.cpp" />
     <ClCompile Include="data.cpp" />
     <ClCompile Include="kiss2.cpp" />
     <ClCompile Include="main.cpp" />
@@ -152,7 +151,6 @@
   <ItemGroup>
     <ClInclude Include="algorithm.h" />
     <ClInclude Include="api.h" />
-    <ClInclude Include="cudd.h" />
     <ClInclude Include="global.h" />
     <ClInclude Include="data.h" />
     <ClInclude Include="kiss2.h" />

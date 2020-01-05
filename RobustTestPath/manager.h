@@ -3,11 +3,14 @@
 #include <string>
 
 #include "data.h"
+#include "algorithm.h"
 
 class Manager
 {
 private:
 	Data data_;
+
+	Algorithm algorithm_;
 
 public:
 	Manager();
